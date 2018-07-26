@@ -47,7 +47,7 @@ class ThumbnailMovies extends Component {
             const thumbMoviesArray = randArrayMovies.slice(0, 8)
             return (thumbMoviesArray.map((movie) => {
                 return (
-                    <Col xs={9} md={3} className="thumbnail_movie">
+                    <Col xs={12} md={3} className="thumbnail_movie">
                         <Link to={`/film/${movie.id}`}>
                             <Thumbnail className="thumbnail_movie_link" idkey={movie.id} alt={movie.title} src={logo}>
                                 <h4 className="thumbnail_movie_title">{movie.title}</h4>
