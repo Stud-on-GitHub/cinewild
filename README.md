@@ -4,11 +4,7 @@ listing them, deleting them, selecting only one using criteria (type, language..
 specific movie, not only with his own name, and listing random films on the home page.
 
 HOW/
-for a quick install:
-npm install
-npm install -g json-server    (JSON Server)
-json-server --watch fillDB.js --port 3030    (run in first termial console)
-npm start    (run in second terminal console)
+for a quick install:<ul><li>npm install</li><li>npm install -g json-server  (JSON Server)</li><li>json-server --watch fillDB.js --port 3030  (run in first termial console)</li><li>npm start  (run in second terminal console)</li></ul>
 You can now view cinewild in the browser at http://localhost:3000/
 and the json server resources at http://localhost:3030/films
 
