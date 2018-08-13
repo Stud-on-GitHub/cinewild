@@ -1,8 +1,8 @@
 
 import { combineReducers } from 'redux'
-import ReducerMovies from './reducer-movies'
 import { reducer as ReducerForm } from 'redux-form'
 
+import ReducerMovies from './reducer-movies'
 import ReducerActiveMovie from './reducer-active-movie'
 
 
