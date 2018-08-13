@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
 import { readMovie } from '../actions/index'
-import NavbarRender from './navbar-render'
+import NavbarRender from '../components/navbar-render'
 import MovieContent from '../components/movie-content'
 
 

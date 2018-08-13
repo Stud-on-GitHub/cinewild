@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { Grid } from 'react-bootstrap'
 
 import ThumbnailMovies from '../containers/thumbnail'
-import NavbarRender from '../containers/navbar-render'
+import NavbarRender from './navbar-render'
 import CarousselRender from './caroussel-render'
 import FooterRender from './footer-render'
 

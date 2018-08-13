@@ -9,7 +9,7 @@ import { Form } from 'react-bootstrap'
 
 import { readAllMovie, deleteMovie } from '../actions/index'
 import MovieListItem from '../components/movie-list-item'
-import NavbarRender from './navbar-render'
+import NavbarRender from '../components/navbar-render'
 
 
 

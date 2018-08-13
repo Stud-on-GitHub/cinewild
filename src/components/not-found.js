@@ -2,7 +2,7 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
 
-import NavbarRender from '../containers/navbar-render'
+import NavbarRender from './navbar-render'
 import pipe from './pipe.jpg'
 
 
